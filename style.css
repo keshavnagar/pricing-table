@@ -1,0 +1,37 @@
+.flex-box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: rgb(43, 41, 41);
+  align-items: center;
+}
+
+hr{
+    border: 2px solid brown;
+}
+
+ul li::marker {
+   color: brown;
+}
+
+.flex-item {
+  color: white;
+  /* justify-content: start; */
+  align-items: start;
+  background-color: rgb(53, 50, 50);
+  height: 300px;
+  width: 300px;
+  margin-top: 20px ;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+button {
+  all: unset;
+  background-color: brown;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
