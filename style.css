@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   background-color: rgb(43, 41, 41);
   align-items: center;
-  border-radius: 10px;
+  border-radius: 10px 10px 20px 20px;
 }
 
 hr{
